@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html-form</title>
+</head>
+<body>
+    <form action="https://hook.eu2.make.com/3v79iuam6rf96apg3sx7y2almjqck1qc">
+    <div>
+        <p>
+        <label for="name">Name:</label>
+        <input 
+        tabindex="2"
+        id="name"
+        placeholder="name pleas"
+        name="name"
+        type="text"
+        required
+        minlength="2"
+        maxlength="30"
+        list="names"/>
+    </p>
+    </div>
+    <div>
+        <p>
+        <label for="email">Email:</label>
+        <input 
+        tabindex="1"
+        id="email"
+        placeholder="email pleas"
+        name="email"
+        type="email"
+        required/>
+    </p>
+    </div>
+    <div>
+        <p>
+        <label for="password">Password:1</label>
+        <input 
+        id="password"
+        placeholder="password pleas"
+        name="password"
+        type="password"
+        minlength="4"
+        maxlength="18"
+        width="200px"
+        required/>
+    </p>
+    </div>
+    <div>
+        <p>
+        <label for="password">Password:2</label>
+        <input 
+        id="password"
+        placeholder="password pleas"
+        name="password"
+        type="password"
+        minlength="4"
+        maxlength="18"
+        width="200px"
+        required/>
+    </p>
+    </div>
+    <div>
+    <p>sex:</p>
+    <ul>
+        <li>
+            <label>
+                man
+                <input name="sex" value="man" type="radio"/>
+            </label>
+        </li>
+        <li>
+            <label>women
+                <input name="sex" value="women" type="radio"/>
+            </label>
+        </li>
+    </ul>
+</div>
+<div>
+    <p>
+        <label for="age">Age:</label>
+        <input 
+        id="age"
+        placeholder="age?"
+        name="age"
+        type="number"
+        min="1"
+        max="100">
+    </p>
+</div>
+<div>
+    <p>
+        <label for="course">Choose a course:</label>
+        <select aria-multiline="" name="select" id="select">
+        <option value="name">front-end</option>
+        <option value="name">backend</option>
+        <option value="name">js</option>
+    </select>
+    </p>
+</div>
+<div>
+    <p>
+        <label for="address">Address:</label>
+        <input 
+        tabindex="1"
+        id="name"
+        placeholder="Country, region, city, town, village, street" 
+        name="name"
+        type="text"
+        required
+        minlength="1"
+        maxlength="3000"
+        list="names"/>
+    </p>
+</div>
+<div>
+    <p>Agree:</p>
+    <label>
+        true
+        <input name="agree" value="true" type="radio">
+    </label>
+</div>
+<div>
+    <p>
+        <button type="submit">Check in</button>
+        <button type="submit">Clear all</button>
+    </p>
+</div>
+</form>
+</body>
+</html>
