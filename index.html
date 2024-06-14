@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html-form</title>
+</head>
+<body>
+    <form action="https://hook.eu2.make.com/3v79iuam6rf96apg3sx7y2almjqck1qc">
+    <div>
+        <p>
+        <label for="text">fullName:</label>
+        <input 
+        id="text"
+        placeholder="name pleas"
+        name="name"
+        type="text"
+        required
+        minlength="2"
+        maxlength="30"
+        list="names"/>
+    </p>
+    </div>
+    <div>
+        <p>
+        <label for="email">email:</label>
+        <input 
+        id="email"
+        placeholder="email pleas"
+        name="text"
+        type="email"
+        required/>
+    </p>
+    </div>
+    <div>
+        <p>
+        <label for="password1">password:1</label>
+        <input 
+        id="password"
+        placeholder="password pleas"
+        name="text"
+        type="password"
+        minlength="4"
+        maxlength="18"
+        width="200px"
+        required/>
+    </p>
+    </div>
+    <div>
+        <p>
+        <label for="password2">password:2</label>
+        <input 
+        id="password"
+        placeholder="password pleas"
+        name="text"
+        type="password"
+        minlength="4"
+        maxlength="18"
+        width="200px"
+        required/>
+    </p>
+    </div>
+    <div>
+    <p>sex:</p>
+    <ul>
+        <li>
+            <label>
+                man
+                <input name="sex" value="man" type="radio"/>
+            </label>
+        </li>
+        <li>
+            <label>women
+                <input name="sex" value="women" type="radio"/>
+            </label>
+        </li>
+    </ul>
+</div>
+<div>
+    <p>
+        <label for="age">age:</label>
+        <input 
+        id="age"
+        placeholder="age?"
+        name="age"
+        type="number"
+        min="1"
+        max="100">
+    </p>
+</div>
+<div>
+    <p>
+        <label for="course">course:</label>
+        <select aria-multiline="" name="select" id="select">
+        <option value="front-end">front-end</option>
+        <option value="backend">backend</option>
+        <option value="js">js</option>
+    </select>
+    </p>
+</div>
+<div>
+    <p>
+        <label for="address">address:</label>
+        <input 
+        tabindex="1"
+        id="name"
+        placeholder="Country, region, city, town, village, street" 
+        name="text"
+        type="text"
+        required
+        minlength="1"
+        maxlength="3000"
+        list="names"/>
+    </p>
+</div>
+<div>
+    <p>agree:</p>
+    <label>
+        true
+        <input name="agree" type="checkbox">
+    </label>
+</div>
+<div>
+    <p>
+        <button type="submit">Check in</button>
+        <button type="reset">Clear all</button>
+    </p>
+</div>
+</form>
+</body>
+</html>
